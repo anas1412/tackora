@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://anas1412.github.io/tackora/"><img src=".github/readme/logo.svg" width="72" alt="Tackora"></a>
+  <a href="https://server-production-6f84.up.railway.app/"><img src=".github/readme/logo.svg" width="72" alt="Tackora"></a>
 </p>
 
 <h1 align="center">Tackora</h1>
@@ -10,11 +10,11 @@
 </p>
 
 <p align="center">
-  <a href="https://server-production-6f84.up.railway.app"><b>Start free</b></a>
+  <a href="https://server-production-6f84.up.railway.app/app"><b>Start free</b></a>
   &nbsp;·&nbsp;
-  <a href="https://anas1412.github.io/tackora/guide/">Getting started</a>
+  <a href="https://server-production-6f84.up.railway.app/guide/">Getting started</a>
   &nbsp;·&nbsp;
-  <a href="https://anas1412.github.io/tackora/pricing">Pricing</a>
+  <a href="https://server-production-6f84.up.railway.app/pricing">Pricing</a>
   &nbsp;·&nbsp;
   <a href="https://www.npmjs.com/package/tackora">Runner on npm</a>
 </p>
@@ -33,7 +33,7 @@ your keys and your agents' sign-ins never leave them.
 
 ## Get started
 
-1. [Sign up](https://server-production-6f84.up.railway.app) and make an organization.
+1. [Sign up](https://server-production-6f84.up.railway.app/app) and make an organization.
 2. On the machine your agents will run on, in any folder:
 
    ```bash
@@ -52,7 +52,7 @@ your keys and your agents' sign-ins never leave them.
 
 The machine needs Node.js 22 or newer, git, the repositories cloned, and at least one agent
 installed and signed in the way you already use it. The runner finds the agents by itself.
-Step by step, with a video for each: [Getting started](https://anas1412.github.io/tackora/guide/).
+Step by step, with a video for each: [Getting started](https://server-production-6f84.up.railway.app/guide/).
 
 ## Answer your agents from one Inbox
 
@@ -162,7 +162,7 @@ The runner is published for Linux (x64 and arm64). macOS and Windows builds are 
 - **Team:** $49 a month or $490 a year per team, for up to 5 people sharing a board and
   answering each other's agents. A second team is a second subscription.
 
-Your machines run the agents, so nothing is metered. [Pricing](https://anas1412.github.io/tackora/pricing).
+Your machines run the agents, so nothing is metered. [Pricing](https://server-production-6f84.up.railway.app/pricing).
 
 ## This repository
 
