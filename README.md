@@ -144,7 +144,7 @@ Every command is `npx tackora@latest <command>`, run on the machine.
 
 | Command | What it does |
 |---|---|
-| `start` | Connect this machine the first time, then run in the background, starting again at login. Run it again to update. |
+| `start` | Connect this machine the first time, then run in the background, starting again at login. It updates itself within an hour of a new version, once no ticket is running. |
 | `add [folder]` | Work on a repository: the one you're in, or the one you name. |
 | `remove [folder]` | Stop working on a repository. Its files stay as they are. |
 | `status` | Whether it's running, its repositories and the agents it found. |
