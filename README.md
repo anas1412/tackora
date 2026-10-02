@@ -156,9 +156,15 @@ The runner is published for Linux (x64 and arm64). macOS and Windows builds are 
 
 ## Pricing
 
-Free for one person, with everything Tackora does. Teams pay **$25 per member per month**.
-Your machines do the work, so runners are never counted.
-[Pricing](https://anas1412.github.io/tackora/pricing).
+| | Free | Pro | Team |
+|---|---|---|---|
+| People | 1 | 1 | 5 |
+| Machines | 1 | 10 | 100 |
+| Repositories | 1 | unlimited | unlimited |
+| Price | $0 | $12 a month, or $120 a year | $49 a month, or $490 a year |
+
+Every plan has everything Tackora does; Team adds invitations, roles and who may approve.
+Try Team free for 14 days, no card needed. [Pricing](https://anas1412.github.io/tackora/pricing).
 
 ## This repository
 
