@@ -31,7 +31,7 @@ the pull request it opens.
 The agents run on your own machines, through a small runner you start with `npx`. Your code,
 your keys and your agents' sign-ins never leave them.
 
-## Get started in two commands
+## Get started
 
 1. [Sign up](https://server-production-6f84.up.railway.app) and make an organization.
 2. On the machine your agents will run on, in any folder:
@@ -75,7 +75,7 @@ summary at the end. **Changes** has the diff. Open the pull request (GitHub) or 
 ## Choose the agent and the machine
 
 <p align="center">
-  <img src=".github/readme/start.png" alt="The Start dialog: agent, machine, model, effort and permissions" width="80%">
+  <img src=".github/readme/start.png" alt="The Start dialog: agent, machine, model, effort and permissions" width="560">
 </p>
 
 Each ticket picks its agent, model and effort. Leave the machine on **Any that can**, or pin
@@ -140,15 +140,17 @@ page removes a machine's background runner; nothing else does.
 
 ## The runner
 
+Every command is `npx tackora@latest <command>`, run on the machine.
+
 | Command | What it does |
 |---|---|
-| `npx tackora@latest start` | Connect this machine the first time, then run in the background, starting again at login. Run it again to update. |
-| `npx tackora@latest add [folder]` | Work on a repository: the one you're in, or the one you name. |
-| `npx tackora@latest remove [folder]` | Stop working on a repository. Its files stay as they are. |
-| `npx tackora@latest status` | Whether it's running, its repositories and the agents it found. |
-| `npx tackora@latest logs [-f]` | What the background runner printed. |
-| `npx tackora@latest stop` | Take the machine offline until `start` runs again. |
-| `npx tackora@latest start --foreground` | Run in the terminal instead, for servers and containers. |
+| `start` | Connect this machine the first time, then run in the background, starting again at login. Run it again to update. |
+| `add [folder]` | Work on a repository: the one you're in, or the one you name. |
+| `remove [folder]` | Stop working on a repository. Its files stay as they are. |
+| `status` | Whether it's running, its repositories and the agents it found. |
+| `logs [-f]` | What the background runner printed. |
+| `stop` | Take the machine offline until `start` runs again. |
+| `start --foreground` | Run in the terminal instead, for servers and containers. |
 
 The runner is published for Linux (x64 and arm64). macOS and Windows builds are next.
 
