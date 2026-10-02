@@ -156,15 +156,13 @@ The runner is published for Linux (x64 and arm64). macOS and Windows builds are 
 
 ## Pricing
 
-| | Free | Pro | Team |
-|---|---|---|---|
-| People | 1 | 1 | 5 |
-| Machines | 1 | 10 | 100 |
-| Repositories | 1 | unlimited | unlimited |
-| Price | $0 | $12 a month, or $120 a year | $49 a month, or $490 a year |
+**Free for you. $49 a month for your team.**
 
-Every plan has everything Tackora does; Team adds invitations, roles and who may approve.
-Try Team free for 14 days, no card needed. [Pricing](https://anas1412.github.io/tackora/pricing).
+- **Personal:** free for good. Just you, every agent, as many machines and repositories as you like.
+- **Team:** $49 a month or $490 a year per team, for up to 5 people sharing a board and
+  answering each other's agents. A second team is a second subscription.
+
+Your machines run the agents, so nothing is metered. [Pricing](https://anas1412.github.io/tackora/pricing).
 
 ## This repository
 
